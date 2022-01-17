@@ -9,7 +9,6 @@
 // Navbar position
 // Navbar themes
 
-
 // Navbar
 //
 // Provide a static navbar from which we expand to create full-width, fixed, and
@@ -44,7 +43,6 @@
   }
 }
 
-
 // Navbar brand
 //
 // Used for brand, project, or site names.
@@ -60,8 +58,6 @@
   height: 61px;
   width: 200px;
 
-  
-
   svg {
     width: 100%;
     height: 100%;
@@ -71,15 +67,6 @@
     // text-decoration: none;
   }
 }
-
-@media only screen and (min-width: 992px) {
-  .navbar:not(.is-fixed) .navbar-brand {
-    svg path {
-      fill: $white;
-    }
-  }
-}
-
 
 // Navbar nav
 //
@@ -103,7 +90,6 @@
   }
 }
 
-
 // Navbar text
 //
 //
@@ -113,7 +99,6 @@
   padding-top: $nav-link-padding-y;
   padding-bottom: $nav-link-padding-y;
 }
-
 
 // Responsive navbar
 //
@@ -238,7 +223,6 @@
     }
   }
 }
-
 
 // Navbar themes
 //

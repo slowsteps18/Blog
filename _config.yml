@@ -1,24 +1,17 @@
-title:              SlowStepsFI
-email:              slowsteps18@gmail.com
-description:        Slow Steps Towards Finance Independance
-author:             Mike
-baseurl:            "/"
-url:                "https://slowstepsfi.com"
-
-# Social Profiles
-# twitter_username:   
-# github_username:    
-# facebook_username:  
-# instagram_username:  
-# linkedin_username:
+title: SlowStepsFI
+email: slowsteps18@gmail.com
+description: Slow Steps Towards Finance Independance
+author: Mike
+baseurl: "/"
+url: "https://slowstepsfi.com"
 
 # Add your google-analytics ID here to activate google analytics
-google_analytics:   G-G8BGX8HERN
+google_analytics: G-G8BGX8HERN
 
 # Build settings
-markdown:           kramdown
-paginate:           5
-paginate_path:      "/posts/page:num/"
+markdown: kramdown
+paginate: 10
+paginate_path: "/articles/page:num/"
 plugins:
   - jekyll-feed
   - jekyll-paginate

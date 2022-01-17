@@ -1,0 +1,44 @@
+.multi {
+  margin: 3rem 0;
+  background: rgba($brand-primary-colour, 0.1);
+  border-bottom: 2px solid $brand-primary-colour;
+  border-top: 2px solid $brand-primary-colour;
+  padding: 2em;
+
+  @media only screen and (max-width: 767px) {
+    margin: 3rem -15px;
+  }
+
+  &-intro {
+    margin: 0;
+    font-style: italic;
+    font-weight: 100;
+  }
+
+  &-title {
+    font-size: 32px;
+    font-weight: 300;
+    color: $brand-secondary-colour;
+    margin-bottom: 1em;
+  }
+
+  &-nav {
+    ol {
+      padding: 0;
+
+      li {
+        padding-left: 10px;
+        margin-left: 20px;
+        font-size: 18px;
+
+        a {
+          font-weight: 500;
+        }
+      }
+
+      .multi-active a {
+        font-weight: 100;
+      }
+    }
+  }
+}
