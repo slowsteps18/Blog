@@ -3,7 +3,7 @@ layout: page
 title: All the articles
 background: "/img/bg-post.jpg"
 ---
-
+<div class="post-previews">
 {% for post in paginator.posts %} {% if post.thumbnail %}
 <article class="post-preview post-preview-thumbnail">
   {% else %}
@@ -23,10 +23,9 @@ background: "/img/bg-post.jpg"
     </a>
     <p class="post-meta">Posted {{ post.date | date: '%B %d, %Y' }}</p>
   </article>
-
-  <hr />
-
+  
   {% endfor %}
+</div>
 
   <!-- Pager -->
   {% if paginator.total_pages > 1 %}

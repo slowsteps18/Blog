@@ -1,0 +1,10 @@
+.toTop {
+  position: fixed;
+  bottom: 30px;
+  right: 0;
+  display: none;
+
+  &.fixed {
+    display: block;
+  }
+}

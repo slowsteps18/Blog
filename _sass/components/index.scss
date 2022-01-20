@@ -1,1 +1,42 @@
 @import "./multi";
+@import "./toTop";
+@import "./homeMasthead";
+
+.post-previews {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  .post-preview {
+    flex: 0 1 calc(50% - 15px);
+
+    @media only screen and (max-width: 991px) {
+      flex: 0 0 100%;
+    }
+
+    h2.post-title {
+      font-size: 1.8rem;
+    }
+
+    h3.post-subtitle {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  header.masthead .page-heading h1,
+  header.masthead .site-heading h1 {
+    font-size: 65px;
+  }
+}
+
+.navbar path {
+  transition: 150ms linear fill;
+}
+
+.navbar:not(.is-fixed) {
+  path {
+    fill: $white;
+  }
+}
