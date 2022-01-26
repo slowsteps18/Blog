@@ -1,6 +1,7 @@
 @import "./multi";
 @import "./toTop";
 @import "./homeMasthead";
+@import "./recommendations";
 
 .post-previews {
   display: flex;
@@ -28,15 +29,5 @@
   header.masthead .page-heading h1,
   header.masthead .site-heading h1 {
     font-size: 65px;
-  }
-}
-
-.navbar path {
-  transition: 150ms linear fill;
-}
-
-.navbar:not(.is-fixed) {
-  path {
-    fill: $white;
   }
 }
